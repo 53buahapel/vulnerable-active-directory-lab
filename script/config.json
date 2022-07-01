@@ -1,0 +1,20 @@
+{
+    "domain" : "<yourdomain>",
+    "groups" : [
+        {
+            "name" : "<any group name>"
+        }
+    ],
+
+    "users" : [
+        {
+            "firstname" : "<firstname>",
+            "lastname" : "<lastname>",
+            "password" : "<password>",
+            "username" : "<username>",
+            "groups" : [
+                "<any group name who's listed above>"
+            ]
+        }
+    ]
+}
