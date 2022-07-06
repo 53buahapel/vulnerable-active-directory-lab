@@ -1,0 +1,14 @@
+Employee
+HRD
+Business
+Engineer
+Manager
+Sales
+Marketing
+CustomerService
+IT
+Finance
+Accounting
+Administration
+SocialMedia
+Supervisor
