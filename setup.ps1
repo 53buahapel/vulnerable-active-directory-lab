@@ -1,4 +1,6 @@
-# run this script to initial setup
+# run this script only in virtual machince
+# if you run this script in your computer, it could harm you machine
+
 function ShowBanner {
     $banner  = @()
     $banner+= $Global:Spacing + ''                                               
@@ -86,6 +88,11 @@ function CreateADUser() {
 $Global:Domain = "kyruuu.com"
 
 ShowBanner
+
+secedit /export /cfg c:\secpol.cfg
+(gc C:\secpol.cfg).replace("PasswordComplexity = 1", "PasswordComplexity = 0") | Out-File C:\secpol.cfg
+secedit /configure /db c:\windows\security\local.sdb /cfg c:\secpol.cfg /areas SECURITYPOLICY
+rm -force c:\secpol.cfg -confirm:$false
 
 echo "creating all random groups and users ..."
 
