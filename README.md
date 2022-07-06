@@ -6,7 +6,7 @@ Hi, kali ini saya akan memberikan lab untuk belajar tentang active directory.
 
 ## cara setup
 
-1. [Download](https://www.mediafire.com/file/qf43sahemb31pbm/victim.vdi/file) image virtualbox
+1. [Download](https://drive.google.com/file/d/1GUrcZV_LZWkkXfP4QxINJVlOfCFp8_46/view?usp=sharing) image virtualbox
 2. Pastikan anda memiliki virtualbox
 3. Install image windows server tersebut
 4. Login dengan password `P@ssw0rd`
